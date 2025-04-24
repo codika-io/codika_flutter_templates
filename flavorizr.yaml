@@ -1,0 +1,37 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+flavors:
+  dev:
+    app:
+      name: "Codika Flutter Templates Dev"
+    android:
+      applicationId: "io.codika.codika_flutter_templates.dev"
+      # icon: "assets/envs/dev/app-icon.png"
+      # adaptiveIcon:
+      #   foreground: "assets/envs/dev/app-icon-foreground.png"
+      #   background: "assets/envs/dev/app-icon-background.png"
+    ios:
+      bundleId: "io.codika.codikaFlutterTemplates.dev"
+      # icon: "assets/envs/dev/app-icon.png"
+    macos:
+      bundleId: "io.codika.codikaFlutterTemplates.dev"
+      # icon: "assets/envs/dev/app-icon.png"
+  
+  
+  
+  prod:
+    app:
+      name: "Codika Flutter Templates"
+    android:
+      applicationId: "io.codika.codika_flutter_templates"  
+      # icon: "assets/envs/prod/app-icon.png"
+      # adaptiveIcon:
+      #   foreground: "assets/envs/prod/app-icon-foreground.png"
+      #   background: "assets/envs/prod/app-icon-background.png"
+    ios:
+      bundleId: "io.codika.codikaFlutterTemplates"
+      # icon: "assets/envs/prod/app-icon.png"
+    macos:
+      bundleId: "io.codika.codikaFlutterTemplates"
+      # icon: "assets/envs/prod/app-icon.png"
