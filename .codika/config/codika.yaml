@@ -1,0 +1,20 @@
+projectName: codika_flutter_templates
+appName: Codika Flutter Templates
+organisationName: io.codika
+git: true
+gitRemoteUrl: "git@github.com:codika-io/codika_flutter_templates.git"
+starterProject: flutter_starter
+environments: 
+  - dev
+  - prod
+
+components: 
+  - core_app_icon
+  - core_splash_screen
+
+params: 
+  flutter_version: 3.29.2
+  app_name: Codika Flutter Templates
+
+executors: 
+  - android_configurations
